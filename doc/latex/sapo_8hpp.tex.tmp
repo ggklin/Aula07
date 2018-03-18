@@ -1,0 +1,33 @@
+\hypertarget{sapo_8hpp}{}\section{include/sapo.hpp File Reference}
+\label{sapo_8hpp}\index{include/sapo.\+hpp@{include/sapo.\+hpp}}
+
+
+Interface da classe \hyperlink{classSapo}{Sapo}.  
+
+
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$cstdlib$>$}\newline
+Include dependency graph for sapo.\+hpp\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classSapo}{Sapo}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Interface da classe \hyperlink{classSapo}{Sapo}. 
+
+\begin{DoxyAuthor}{Author}
+George Franklin 
+\end{DoxyAuthor}
+\begin{DoxySince}{Since}
+18/03/2018 
+\end{DoxySince}
+\begin{DoxyDate}{Date}
+18/03/2018 
+\end{DoxyDate}

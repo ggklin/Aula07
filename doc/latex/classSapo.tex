@@ -1,0 +1,115 @@
+\hypertarget{classSapo}{}\section{Sapo Class Reference}
+\label{classSapo}\index{Sapo@{Sapo}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classSapo_a4dfbe2759140ed6903ff3e9389eae2c3}\label{classSapo_a4dfbe2759140ed6903ff3e9389eae2c3}} 
+\hyperlink{classSapo_a4dfbe2759140ed6903ff3e9389eae2c3}{Sapo} ()
+\begin{DoxyCompactList}\small\item\em Construtor padrao. \end{DoxyCompactList}\item 
+\hyperlink{classSapo_a221aae78cfa9b71f5888b1a37e5f80af}{Sapo} (string i, int f)
+\begin{DoxyCompactList}\small\item\em Construtor que inicializa o identificador e a forca do pulo de um sapo. \end{DoxyCompactList}\item 
+string \hyperlink{classSapo_a69ca03fd4c295dd95db85082f7494f91}{get\+\_\+identificador} ()
+\begin{DoxyCompactList}\small\item\em Metodo get para obter o identificador de um sapo. \end{DoxyCompactList}\item 
+int \hyperlink{classSapo_a5256452b7012da02582d47d19bfb80f9}{get\+\_\+dist\+\_\+percorrida} ()
+\begin{DoxyCompactList}\small\item\em Metodo get para obter a distancia percorrida de um sapo. \end{DoxyCompactList}\item 
+int \hyperlink{classSapo_a9b37c7eae22e5a6a9e0a7f8d986a2f99}{get\+\_\+qnt\+\_\+pulos} ()
+\begin{DoxyCompactList}\small\item\em Metodo get para obter a quantidade de pulos de um sapo. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classSapo_a32e61c61677967120ae652099bd56805}\label{classSapo_a32e61c61677967120ae652099bd56805}} 
+void \hyperlink{classSapo_a32e61c61677967120ae652099bd56805}{pular} ()
+\begin{DoxyCompactList}\small\item\em Metodo que incrementa a distancia pecorrida de forma randômica entre 1 e o máximo que um sapo pode saltar e incrementa o número de pulos dados pelo sapo em uma unidade. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classSapo_a9a223c19115eee492036e71f796ce6d2}{exibir\+\_\+vencedor} (\hyperlink{classSapo}{Sapo} $\ast$s, int n)
+\begin{DoxyCompactList}\small\item\em Método estático que exibe o vencedor de uma corrida de sapos. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classSapo_a126ead3f437199b995147eed2e2ca916}\label{classSapo_a126ead3f437199b995147eed2e2ca916}} 
+static int \hyperlink{classSapo_a126ead3f437199b995147eed2e2ca916}{dist\+\_\+total}
+\begin{DoxyCompactList}\small\item\em Atributo estático que define a distância total de uma corrida de sapos. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classSapo_a221aae78cfa9b71f5888b1a37e5f80af}\label{classSapo_a221aae78cfa9b71f5888b1a37e5f80af}} 
+\index{Sapo@{Sapo}!Sapo@{Sapo}}
+\index{Sapo@{Sapo}!Sapo@{Sapo}}
+\subsubsection{\texorpdfstring{Sapo()}{Sapo()}}
+{\footnotesize\ttfamily Sapo\+::\+Sapo (\begin{DoxyParamCaption}\item[{string}]{i,  }\item[{int}]{f }\end{DoxyParamCaption})}
+
+
+
+Construtor que inicializa o identificador e a forca do pulo de um sapo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & Identificador do sapo \\
+\hline
+{\em f} & Forca do pulo do sapo \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classSapo_a9a223c19115eee492036e71f796ce6d2}\label{classSapo_a9a223c19115eee492036e71f796ce6d2}} 
+\index{Sapo@{Sapo}!exibir\+\_\+vencedor@{exibir\+\_\+vencedor}}
+\index{exibir\+\_\+vencedor@{exibir\+\_\+vencedor}!Sapo@{Sapo}}
+\subsubsection{\texorpdfstring{exibir\+\_\+vencedor()}{exibir\_vencedor()}}
+{\footnotesize\ttfamily void Sapo\+::exibir\+\_\+vencedor (\begin{DoxyParamCaption}\item[{\hyperlink{classSapo}{Sapo} $\ast$}]{s,  }\item[{int}]{n }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Método estático que exibe o vencedor de uma corrida de sapos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em s} & Vetor de sapos alocado dinamicamente \\
+\hline
+{\em n} & Tamanho do vetor \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classSapo_a5256452b7012da02582d47d19bfb80f9}\label{classSapo_a5256452b7012da02582d47d19bfb80f9}} 
+\index{Sapo@{Sapo}!get\+\_\+dist\+\_\+percorrida@{get\+\_\+dist\+\_\+percorrida}}
+\index{get\+\_\+dist\+\_\+percorrida@{get\+\_\+dist\+\_\+percorrida}!Sapo@{Sapo}}
+\subsubsection{\texorpdfstring{get\+\_\+dist\+\_\+percorrida()}{get\_dist\_percorrida()}}
+{\footnotesize\ttfamily int Sapo\+::get\+\_\+dist\+\_\+percorrida (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Metodo get para obter a distancia percorrida de um sapo. 
+
+\begin{DoxyReturn}{Returns}
+Distancia percorrida do sapo 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classSapo_a69ca03fd4c295dd95db85082f7494f91}\label{classSapo_a69ca03fd4c295dd95db85082f7494f91}} 
+\index{Sapo@{Sapo}!get\+\_\+identificador@{get\+\_\+identificador}}
+\index{get\+\_\+identificador@{get\+\_\+identificador}!Sapo@{Sapo}}
+\subsubsection{\texorpdfstring{get\+\_\+identificador()}{get\_identificador()}}
+{\footnotesize\ttfamily string Sapo\+::get\+\_\+identificador (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Metodo get para obter o identificador de um sapo. 
+
+\begin{DoxyReturn}{Returns}
+Identificador do sapo 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classSapo_a9b37c7eae22e5a6a9e0a7f8d986a2f99}\label{classSapo_a9b37c7eae22e5a6a9e0a7f8d986a2f99}} 
+\index{Sapo@{Sapo}!get\+\_\+qnt\+\_\+pulos@{get\+\_\+qnt\+\_\+pulos}}
+\index{get\+\_\+qnt\+\_\+pulos@{get\+\_\+qnt\+\_\+pulos}!Sapo@{Sapo}}
+\subsubsection{\texorpdfstring{get\+\_\+qnt\+\_\+pulos()}{get\_qnt\_pulos()}}
+{\footnotesize\ttfamily int Sapo\+::get\+\_\+qnt\+\_\+pulos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Metodo get para obter a quantidade de pulos de um sapo. 
+
+\begin{DoxyReturn}{Returns}
+Quantidade de pulos do sapo 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\hyperlink{sapo_8hpp}{sapo.\+hpp}\item 
+src/\hyperlink{sapo_8cpp}{sapo.\+cpp}\end{DoxyCompactItemize}
